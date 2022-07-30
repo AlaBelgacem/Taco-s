@@ -37,7 +37,8 @@ left: 26.7rem;
 .col-1 p{
     font-size: 22px;
     font-weight: 400;
-    color : #909090  
+    color : #909090;
+    width: 75%; 
 }
 
 #orderNow{
@@ -174,4 +175,44 @@ button:hover .circle .icon.arrow {
 }
 button:hover .button-text {
   color: #fff;
+}
+
+.col-2{
+  /*position: relative;*/
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.foodbag{
+  position: absolute;
+width: 800px;
+height: 762px;
+left: 867px;
+top: 140px;
+}
+
+
+.rating{
+  margin-top:80px;
+}
+
+#star{
+  color: #FEBB41;
+}
+
+.rating h6{
+  margin-top: 18px;
+  margin-left: 5px;
+  color: #2F2F2F;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.rating p{
+  font-size: 18px;
+  color: #909090;
+  font-weight: 300;
+  margin-left: 5px;
+  margin-top: -8px;
 }
