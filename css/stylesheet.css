@@ -177,20 +177,7 @@ button:hover .button-text {
   color: #fff;
 }
 
-.col-2{
-  /*position: relative;*/
-  flex-basis: 60%;
-  display: flex;
-  align-items: center;
-}
 
-.foodbag{
-  position: absolute;
-width: 800px;
-height: 762px;
-left: 867px;
-top: 140px;
-}
 
 
 .rating{
@@ -199,6 +186,7 @@ top: 140px;
 
 #star{
   color: #FEBB41;
+  background-color: transparent;
 }
 
 .rating h6{
@@ -215,4 +203,32 @@ top: 140px;
   font-weight: 300;
   margin-left: 5px;
   margin-top: -8px;
+}
+
+.social{
+  margin: 0 5px;
+  text-decoration: none;
+  color: #2F2F2F;
+}
+.social:hover{
+  color: #2F2F2F;
+}
+
+
+/* ///////////////////// col 2 /////////////////// */
+
+.col-2{
+  /*position: relative;*/
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.col-2 .foodbag{
+  width: 50%;
+  position: absolute;
+/*width: 800px;
+height: 762px;*/
+left: 700px;
+top: 140px;
 }
